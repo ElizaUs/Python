@@ -1,9 +1,8 @@
 import re
 
 class MyParser:
-    def __init__(self, date, currency):
-        self.date1 = date
-        self.currency1 = currency
+    def __init__(self, text):
+        self.text = text
 
     def parse(self):
         f_str = self.read()
